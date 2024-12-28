@@ -19,12 +19,3 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
 </IfModule>
-
-#  New from 30/11/2024
-# <IfModule mod_rewrite.c>
-#     RewriteEngine On
-#     # Redirect everything to index.php except for existing files and directories
-#     RewriteCond %{REQUEST_FILENAME} !-f
-#     RewriteCond %{REQUEST_FILENAME} !-d
-#     RewriteRule ^ index.php [L]
-# </IfModule>
